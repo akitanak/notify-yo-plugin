@@ -12,8 +12,7 @@
     so it should be straightforward to find them.
   -->
   <f:section title="Notify YO">
-    <f:entry title="default YO API token" field="apitoken"
-      description="get YO API token from http://developer.justyo.co/">
+    <f:entry title="default YO API token" field="apitoken">
       <f:textbox name="notifyyo.apitoken"/>
     </f:entry>
   </f:section>
