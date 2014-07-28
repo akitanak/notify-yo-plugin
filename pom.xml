@@ -7,7 +7,7 @@
   </parent>
 
   <artifactId>notify-yo</artifactId>
-  <version>0.5-SNAPSHOT</version>
+  <version>0.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <licenses>
@@ -38,7 +38,11 @@
       <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
-
+  <scm>
+    <connection>scm:git:git://github.com/jenkinsci/notify-yo-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/notify-yo-plugin.git</developerConnection>
+    <url>http://github.com/jenkinsci/notify-yo-plugin</url>
+  </scm>
   <dependencies>
   	<dependency>
   		<groupId>org.apache.httpcomponents</groupId>
